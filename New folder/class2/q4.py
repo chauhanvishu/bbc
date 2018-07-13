@@ -29,8 +29,8 @@ class Square(Shape):
         self.length = length
         self.breath = breath
 
-A = Rectangle(int(input("Enter length of rectangle : ")), int(input("Enter breath of rectangle : ")))
+A = Rectangle(int(input(" length of rectangle : ")), int(input(" breath of rectangle : ")))
 A.Area()
 
-B = Square(int(input("Enter side of square : ")), int(input("Enter breath of square : ")))
+B = Square(int(input("side of square : ")), int(input("breath of square : ")))
 B.Area()
